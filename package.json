@@ -22,10 +22,12 @@
     "url": "https://github.com/huntwj/io-ts-jsend/issues"
   },
   "homepage": "https://github.com/huntwj/io-ts-jsend#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
     "ts-jest": "^25.2.1",
+    "ts-lint": "^4.5.1",
     "typescript": "^3.8.3"
   }
 }
