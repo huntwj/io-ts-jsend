@@ -2,7 +2,7 @@
   "name": "io-ts-jsend",
   "version": "0.1.0",
   "description": "JSend utility codecs for use with the io-ts library",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.es6.json",
     "prettier": "prettier --check \"src/**/*.ts\"",
@@ -30,7 +30,7 @@
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
     "ts-jest": "^25.2.1",
-    "ts-lint": "^4.5.1",
+    "tslint": "^6.0.0",
     "typescript": "^3.8.3"
   },
   "prettier": {
