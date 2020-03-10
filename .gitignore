@@ -3,3 +3,6 @@ node_modules
 
 /es6
 /lib
+
+# Testing and coverage artifacts
+/coverage

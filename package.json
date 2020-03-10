@@ -5,9 +5,14 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc && tsc -p tsconfig.es6.json",
+    "lint": "tslint -p tsconfig.tslint.json src/**/*.ts test/**/*.ts",
+    "jest-clear-cache": "jest --clearCache",
+    "jest": "jest --ci",
     "prettier": "prettier --check \"src/**/*.ts\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
+  "module": "es6/index.js",
+  "typings": "lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/huntwj/io-ts-jsend.git"
@@ -24,7 +29,10 @@
     "url": "https://github.com/huntwj/io-ts-jsend/issues"
   },
   "homepage": "https://github.com/huntwj/io-ts-jsend#readme",
-  "dependencies": {},
+  "dependencies": {
+    "fp-ts": "^2.5.3",
+    "io-ts": "^2.1.2"
+  },
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
